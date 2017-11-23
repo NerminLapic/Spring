@@ -1,0 +1,241 @@
+.wrapper{
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;  
+flex-flow: row wrap;
+
+
+}
+.container{
+    display: flex;
+    display: -webkit-flex;
+    width: 950px;
+    margin: 10px;
+    background-color: lightgoldenrodyellow;
+    flex-flow: column;
+    margin: auto;
+    box-shadow: 0px 3px 5px #666;
+    
+}
+
+footer, header{
+flex-basis:100%;
+border-bottom-style: solid;
+
+
+}
+.header{
+display:flex;
+border-bottom: 3px #0076ff solid;
+box-shadow: 0px 3px 5px #666;
+background: black url('../images/header.jpg') no-repeat ;
+
+ background-position: 50% 50%;
+ background-size: 100%;
+
+
+
+}
+
+#logo{
+	
+	display: inline-block;
+ 	margin-left:2em;
+	margin-top:3em;
+        font-size: 15px;
+        color: white;
+        letter-spacing: 10px;
+        font-family:cursive;
+       
+        
+}
+nav {
+	width: 74vmax;
+	display: inline-block;
+	text-align: right;
+	float: right;
+        margin-right:2em;
+	margin-top:5em;
+	font-family:"calibri";
+	font-weight:bold;
+	
+}
+
+
+	nav ul li{
+	display:inline-block;
+	height: 8vmin;
+   
+	}
+		nav ul li a{
+			padding: 2vmin;
+			background: #0076ff;
+			color: white;
+
+			text-decoration:none;
+			width:6vmin;
+
+	}
+	nav ul li a:hover{
+	 background-color: #ffc500;
+	box-shadow: 0px 3px 1px #666;
+	transform:translate (50px,-10px);
+	}
+	nav ul li a:active{ background-color: #ffc500; 
+         
+	}
+
+
+.main{
+display:flex;
+flex-flow: column;
+height:35em;
+flex-basis:30em;
+flex-grow:5;
+align-content:flex-start;
+padding:2em;
+font-family:"verdana";
+font-size:0,2em;
+
+}
+
+
+
+aside{
+flex-basis:10%;
+flex-grow:1;
+padding:2em;
+line-height:1em;
+width: 50px;
+}
+
+
+#logo:hover{
+transition: width 4s;
+}
+
+
+
+
+#logo{  
+transition: transform 2s;
+transform-style: preserve-3d;
+
+}
+ 
+#logo:hover {
+
+transform: translate(20px,20px);
+transition: width 5em, height 5em;
+    
+}
+
+
+.footer{	
+        border-top: 3vmin #0076ff solid;
+	border-bottom: 3px #0076ff solid;
+	border-width: 0,6em;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.footer p{
+color:grey;
+text-align: right;
+margin-right:2em;
+}
+
+td{
+    
+    border: 1px solid blue;
+    
+}
+
+table{
+    width: 900px;
+}
+table td {
+    
+    background-color: #e1f0f0;
+}
+
+#dodaj{
+    display: inline-block;
+    height: 30px;
+    width: 900px;
+    background-color:lightgreen;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#text_over{
+        font-size:80px;
+        color:  #1074ff;
+        letter-spacing: 5px;
+        text-shadow: 3px 2px grey;
+        text-align: center;
+ 
+}
+
+.opis{
+    box-shadow: 0px 3px 1px #666;
+    
+}
+
+#naslov{
+    color: #1074ff;
+}
+
+        .field
+        {
+            clear:both;
+            padding:5px;
+        }
+ 
+        .field label
+        {
+            text-align: left;
+            width:200px;
+            float:left;
+        }
+        
+        input 
+        {
+            width: 200px;
+            
+        }
+        
+        
+         
+        .error
+        {
+            color: red;
+        }
+        
+        #OK{
+            color:#1074ff;
+            width: 200px;
+            height: 30px;
+            
+        }
+        
+        #poruka{
+            size: 2px;
+            text-align: center;
+            color: green;
+        }
+         
+        select{
+         
+            text-align: left;
+            width:200px;
+            float:left;
+        }
+        
+        textArea{
+            width: 200px;
+            height: 100px;
+        }
